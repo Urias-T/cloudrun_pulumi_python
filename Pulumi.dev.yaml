@@ -1,0 +1,9 @@
+config:
+  cloudrun_pulumi_python:appPath: app
+  cloudrun_pulumi_python:concurrency: "50"
+  cloudrun_pulumi_python:containerPort: "8080"
+  cloudrun_pulumi_python:cpu: "1"
+  cloudrun_pulumi_python:memory: 1Gi
+  gcp:credentials: secrets\iac-pulumi-aa866bd522ef.json
+  gcp:project: iac-pulumi
+  gcp:region: europe-west1
